@@ -1,2 +1,2 @@
 # algorithms-java
-Practice algorithms solved using Java
+Practice data structure implementations and algorithms solved using Java
