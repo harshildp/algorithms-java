@@ -16,11 +16,11 @@ public class Autoscaling {
             if (utilization[i] < 25 && count > 1) {
                 System.out.println("under " + i);
                 count = (int) Math.ceil(count / 2);
-                i+=9;
+                i += 10;
             } else if (utilization[i] > 60 && count * 2 < (2*10^8)) {
                 System.out.println("over " + i);
                 count *= 2;
-                i+=9;
+                i += 10;
             }
         }
 
